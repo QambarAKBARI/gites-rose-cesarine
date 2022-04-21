@@ -1,0 +1,41 @@
+.photos{
+    max-width: 1120px;
+    margin: auto;
+}
+
+.photo{
+    display: flex;
+    gap: 10px;
+}
+.big-photo{
+    flex: 2;
+}
+.sm-photo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.maps{
+    width: 80%;
+    margin: auto;
+}
+
+i{
+    color: #DFB163;
+    margin-right: 0.3em;
+}
+.icon{
+    margin-right: 0.7em;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+    grid-gap: 10px;
+}
