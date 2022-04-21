@@ -36,6 +36,7 @@ i{
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+    grid-template-columns: repeat(auto-fit, max(560px, 1fr));
     grid-gap: 10px;
+    padding: 0.3em;
 }
