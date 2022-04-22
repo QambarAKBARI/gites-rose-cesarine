@@ -44,3 +44,33 @@ i{
     width: 100%;
     height: 30vh;
 }
+#banniere{
+    height: 60vh;
+    width: 100%;
+    background-color: #DFB163;
+    animation: fondu 60s ease-in-out infinite both;
+}
+
+@keyframes fondu {
+    0%{background-image: url("../img/blog-3.jpg");}
+    33.33%{background-image: url("../img/blog-4.jpg");}
+    66.67%{background-image: url("../img/blog-1.jpg");}
+    100%{background-image: url("../img/blog-2.jpg");}
+}
+
+.d1{
+    width: 100%;
+    height: 432px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 60s ease-in-out infinite both;
+}
+
+@keyframes fondu{
+    0%{background-image: url("../img/maison-2.jpg");}
+    33.33%{background-image: url("../img/maison-3.jpg");}
+    66.67%{background-image: url("../img/carousel-2.jpg");}
+    100%{background-image: url("../img/carousel-1.jpg");}
+}
