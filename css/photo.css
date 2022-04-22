@@ -40,3 +40,7 @@ i{
     grid-gap: 10px;
     padding: 0.3em;
 }
+.localisation{
+    width: 100%;
+    height: 30vh;
+}
