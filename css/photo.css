@@ -74,3 +74,19 @@ i{
     66.67%{background-image: url("../img/carousel-2.jpg");}
     100%{background-image: url("../img/carousel-1.jpg");}
 }
+
+.photoEquipe{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+    margin: auto;
+}
+.photo{
+    width: 186px;
+    height: 126px;
+    margin: 1em;
+    border-radius: 30px;
+
+}
