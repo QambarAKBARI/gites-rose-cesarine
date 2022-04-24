@@ -44,46 +44,21 @@ i{
     width: 100%;
     height: 30vh;
 }
-#banniere{
-    height: 60vh;
+
+.carrousel-titre{
+    color: #DFB163;
+}
+
+
+.bandeau .series{
+    display: flex;
+    flex-wrap: wrap;
+}
+.series figure img{
     width: 100%;
-    background-color: #DFB163;
-    animation: fondu 60s ease-in-out infinite both;
+    height: 40vh;
 }
-
-@keyframes fondu {
-    0%{background-image: url("../img/blog-3.jpg");}
-    33.33%{background-image: url("../img/blog-4.jpg");}
-    66.67%{background-image: url("../img/blog-1.jpg");}
-    100%{background-image: url("../img/blog-2.jpg");}
-}
-
-.d1{
-    width: 100%;
-    height: 432px;
-    margin: 50px auto;
-    box-shadow: 0px 15px 10px -5px #777;
-    background-color: #EDEDED;
-    background-size: contain;
-    animation: fondu 60s ease-in-out both;
-}
-
-@keyframes fondu{
-    0%{background-image: url("../img/cesarine/cuisine-3.jpg");}
-    7%{background-image: url("../img/alsace/alsace-7.jpg");}
-    14%{background-image: url("../img/rose/4.jpg");}
-    21%{background-image: url("../img/maison.jpg");}
-    28%{background-image: url("../img/cesarine/chambre-6.jpg");}
-    35%{background-image: url("../img/deco/décoration-11.jpg");}
-    42%{background-image: url("../img/rose/7.jpg");}
-    49%{background-image: url("../img/alsace/alsace-3.jpg");}
-    56%{background-image: url("../img/alsace/alsace-2.jpg");}
-    63%{background-image: url("../img/cesarine/poele.jpg");}
-    70%{background-image: url("../img/rose/10.jpg");}
-    77%{background-image: url("../img/deco/décoration-15.jpg");}
-    84%{background-image: url("../img/deco/décoration-14.jpg");}
-    91%{background-image: url("../img/cesarine/entree.jpg");}
-    95%{background-image: url("../img/alsace/alsace-5.jpg");}
-    100%{background-image: url("../img/rose/26.jpg");}
+.series figure{
+    flex: 1;
 }
 
