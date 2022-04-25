@@ -63,8 +63,23 @@ i{
     flex: 1;
 }
 
+span{
+    color:#4B7BE5;
+    
+}
+
+.hidden-bg{
+    display: none;
+}
+
 @media (max-width: 1000px) {
     .a-enlever{
+        display: none;
+    }
+    .hidden-bg{
+        display: initial;
+    }
+    .hidden-sm{
         display: none;
     }
 }
@@ -78,8 +93,5 @@ i{
     }
 }
 
-span{
-    color:#4B7BE5;
-    
-}
+
 
