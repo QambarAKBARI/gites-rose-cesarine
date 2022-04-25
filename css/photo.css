@@ -53,6 +53,7 @@ i{
 .bandeau .series{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .series figure img{
     width: 100%;
