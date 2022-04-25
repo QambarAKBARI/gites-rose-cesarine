@@ -56,9 +56,29 @@ i{
 }
 .series figure img{
     width: 100%;
-    height: 40vh;
+   
 }
 .series figure{
     flex: 1;
+}
+
+@media (max-width: 1000px) {
+    .a-enlever{
+        display: none;
+    }
+}
+.description{
+    font-size: 1.2em;
+}
+
+@media (max-width: 600x) {
+    .description{
+        font-size: 0.5em;
+    }
+}
+
+span{
+    color:#4B7BE5;
+    
 }
 
